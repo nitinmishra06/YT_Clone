@@ -5,7 +5,10 @@ body {
 }
 
 .video-card {
-  width: 320px;
+  width: 400px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .thumbnail {
@@ -43,7 +46,7 @@ opacity: 0.8;
   font-weight: 400;
   color: #aaa;
   margin-bottom: 2px;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top:0;
 }
 .info{
@@ -52,7 +55,18 @@ opacity: 0.8;
   font-weight: 400;
   color: #aaa;
   margin-bottom: 2px;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top:0;
+
+}
+@media (min-width:500px){
+.horizontal{
+  align-self: center;
+  align-items: center;
+  margin-left: 60px;
+}
+}
+@media (max-width:500px){
+
 
 }
