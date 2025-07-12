@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(39, 38, 38);
+  font-family: Roboto, sans-serif;
+  padding: 30px;
+}
+
+.video-card {
+  width: 320px;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 15px;
+  transform: opacity 1s;
+}
+.thumbnail:hover{
+opacity: 0.8;
+}
+
+.info-row {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+
+.pfp {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.video-title {
+  color: white;
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom:0;
+  margin-top:0;
+}
+.channel{
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaa;
+  margin-bottom: 2px;
+  margin-left: 15%;
+  margin-top:0;
+}
+.info{
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaa;
+  margin-bottom: 2px;
+  margin-left: 15%;
+  margin-top:0;
+
+}
