@@ -59,6 +59,36 @@ opacity: 0.8;
   margin-top:0;
 
 }
+.nav {
+  display: flex;
+  align-items: center; 
+  gap: 8px;              
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 30px;
+}
+
+.YT {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0; 
+  font-size: 18px;
+}
+.search-container{
+  width: 200px;
+  height:30px;
+  display: inline-block;
+}
+button{
+  display:inline-block;
+}
+
+.body{
+  padding:0;
+}
 @media (min-width:500px){
 .horizontal{
   align-self: center;
