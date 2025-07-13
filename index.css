@@ -1,23 +1,82 @@
 body {
   background-color: rgb(39, 38, 38);
   font-family: Roboto, sans-serif;
-  padding: 30px;
+  margin: 0;
+  padding: 0;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo and search */
+  padding: 0 20px;
+  height: 60px;
+  background-color: rgb(39, 38, 38);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  width: 30px;
+}
+
+.YT {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.search {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  width: 400px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  background-color: #121212;
+  color: white;
+}
+
+.search-button {
+  padding: 8px 12px;
+  background-color: #303030;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Video card styling */
 .video-card {
   width: 400px;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 20px;
 }
 
 .thumbnail {
   width: 100%;
   border-radius: 15px;
-  transform: opacity 1s;
+  transition: opacity 0.3s;
 }
-.thumbnail:hover{
-opacity: 0.8;
+.thumbnail:hover {
+  opacity: 0.8;
 }
 
 .info-row {
@@ -37,68 +96,22 @@ opacity: 0.8;
   color: white;
   font-size: 14px;
   line-height: 1.3;
-  margin-bottom:0;
-  margin-top:0;
-}
-.channel{
-  font-family: Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaa;
-  margin-bottom: 2px;
-  margin-left: 10%;
-  margin-top:0;
-}
-.info{
-  font-family: Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaa;
-  margin-bottom: 2px;
-  margin-left: 10%;
-  margin-top:0;
-
-}
-.nav {
-  display: flex;
-  align-items: center; 
-  gap: 8px;              
-  padding: 0;
   margin: 0;
 }
 
-.logo {
-  width: 30px;
+.channel,
+.info {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaa;
+  margin: 2px 0 0 10%;
 }
 
-.YT {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  margin: 0; 
-  font-size: 18px;
-}
-.search-container{
-  width: 200px;
-  height:30px;
-  display: inline-block;
-}
-button{
-  display:inline-block;
-}
-
-.body{
-  padding:0;
-}
-@media (min-width:500px){
-.horizontal{
-  align-self: center;
-  align-items: center;
-  margin-left: 60px;
-  margin-bottom: 15px;
-  margin-top:15px;
-}
-}
-@media (max-width:500px){
-
-
+.horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
 }
