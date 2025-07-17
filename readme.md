@@ -2,6 +2,9 @@ this isn't any big project But a simple practice project cloning youtube homepag
 
 using only two filed i.e Index.html and Index.css;
 
+as there is no JS so very less responsiveness open only on bigger screen,
+
+
 
 
 
