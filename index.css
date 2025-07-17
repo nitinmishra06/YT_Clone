@@ -89,6 +89,23 @@ body {
   display: inline-block;
   margin: 20px;
 }
+.topic{
+  
+  display:flex;
+  flex-wrap: nowrap;
+}
+.topicname{
+  background-color: #8e8b8b;
+  color:white;
+  margin: 0%;
+  display: inline-block;
+  font-size: 14px;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+  margin: 5px;
+}
 
 .thumbnail {
   width: 100%;
